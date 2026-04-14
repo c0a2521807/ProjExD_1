@@ -23,8 +23,8 @@ def main():
             if event.type == pg.QUIT: return
 
         key_lst = pg.key.get_pressed()  
-        
-        dx = -1#演習１
+        #演習１
+        dx = -1
         dy = 0
 
         if key_lst[pg.K_UP]:  #演習２
