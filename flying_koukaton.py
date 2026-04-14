@@ -40,7 +40,7 @@ def main():
         kk_rct.move_ip(dx, dy)
 
         x = tmr%3200  
-        screen.blit(bg_img, [-x, 0])  
+        screen.blit(bg_img, [-x, 0])  #練習２
         screen.blit(bg_img2, [-x+1600, 0])  
         screen.blit(bg_img, [-x+3200, 0])  
         screen.blit(kk_img, kk_rct)  
