@@ -27,7 +27,7 @@ def main():
         dx = -1#演習１
         dy = 0
 
-        if key_lst[pg.K_UP]:  
+        if key_lst[pg.K_UP]:  #演習２
             dy -= 1
         if key_lst[pg.K_DOWN]:  
             dy += 1
