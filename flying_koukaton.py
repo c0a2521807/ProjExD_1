@@ -24,7 +24,7 @@ def main():
 
         key_lst = pg.key.get_pressed()  
         
-        dx = -1
+        dx = -1#演習１
         dy = 0
 
         if key_lst[pg.K_UP]:  
